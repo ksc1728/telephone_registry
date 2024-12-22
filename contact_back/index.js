@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 const Contact=require('./model')
 
 mongoose
-  .connect("mongodb+srv://deposittracker:12345@clusterdummy.z7sma.mongodb.net/", {
+  .connect("mongodb+srv://deposittracker:12345@clusterdummy.z7sma.mongodb.net/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
